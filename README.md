@@ -125,9 +125,9 @@ Log.d("TIME_FORMAT", "Converted Time: $formattedMillis")
 
 ## Contributing
 
-Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
+We welcome contributions to the TimerX project! Please review the [CONTRIBUTING](CONTRIBUTING.md) guide for instructions on how to get involved.
+
 
 
 ## License

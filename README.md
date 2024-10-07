@@ -128,3 +128,8 @@ Log.d("TIME_FORMAT", "Converted Time: $formattedMillis")
 Contributions are always welcome!
 
 See `contributing.md` for ways to get started.
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

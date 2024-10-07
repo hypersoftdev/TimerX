@@ -1,4 +1,4 @@
-package com.sample.timerx
+package com.example.mytimerx
 
 import org.junit.Test
 

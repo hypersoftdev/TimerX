@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "TimerX"
 include(":app")
+include(":app:mytimerX")

@@ -65,7 +65,7 @@ class FormatManager {
             val diffInMillis = Math.abs(date2.time - date1.time)
             val hours = (diffInMillis / (1000 * 60 * 60)).toInt()
             val minutes = (diffInMillis / (1000 * 60) % 60).toInt()
-            String.format("%02d:%02d", hours, minutes)
+            String.format(Locale.getDefault(), "%02d:%02d", hours, minutes)
         } catch (e: ParseException) {
             "Invalid time format"
         }

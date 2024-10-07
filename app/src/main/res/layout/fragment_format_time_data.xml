@@ -6,14 +6,84 @@
     android:layout_height="match_parent"
     tools:context=".fragments.FormatTimeDataFragment">
 
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="16sp" />
+
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnFormatTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="212dp"
-        android:text="Format"
+        android:text="Format Time"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintBottom_toTopOf="@+id/btnConvertMillis"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/tvResult" />
+
+    <Button
+        android:id="@+id/btnConvertMillis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert Millis into time"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintBottom_toTopOf="@+id/btnGetCurrentTime24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFormatTime" />
+
+    <Button
+        android:id="@+id/btnGetCurrentTime24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Current Time (24-Hour)"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintBottom_toTopOf="@+id/btnGetCurrentTime12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConvertMillis" />
+
+    <Button
+        android:id="@+id/btnGetCurrentTime12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Current Time (12-Hour)"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintBottom_toTopOf="@+id/btnTimeDifference"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGetCurrentTime24" />
+
+    <Button
+        android:id="@+id/btnTimeDifference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Difference"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintBottom_toTopOf="@+id/btnIsValidTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGetCurrentTime12" />
+
+    <Button
+        android:id="@+id/btnIsValidTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Time Format"
+        android:background="@drawable/ripple_effect"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTimeDifference" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

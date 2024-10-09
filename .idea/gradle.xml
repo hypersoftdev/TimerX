@@ -10,7 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/app/mytimerX" />
+            <option value="$PROJECT_DIR$/timerx" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />

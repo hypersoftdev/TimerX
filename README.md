@@ -1,25 +1,6 @@
-# Timer X
+# TimerX
 
-
-![Library Logo](assets/timerxlogo.PNG)
-
-## Overview
-
-The **Timer X** library provides a collection of powerful and easy-to-use classes for managing time and performing various time-related operations such as countdown timers, formatting timestamps, and working with time zones. Whether you're building timers, formatting dates, or converting time between time zones, this library offers a simple and efficient solution for your time management needs.
-
-## Demo
-
-Here is a gif video that showcases the usage of this library in an Android project. The video covers how to implement timers, format time, and manage time zones effectively.
-
-![Demo](assets/demo_timer_x.mp4)
-
-## Installation
-
-You can integrate this library into your Android project using Gradle:
-
-dependencies {
-implementation 'com.example:mytimerx:1.0.0'
-}
+The **TimerX** library provides a collection of powerful and easy-to-use classes for managing time and performing various time-related operations such as countdown timers, formatting timestamps, and working with time zones. Whether you're building timers, formatting dates, or converting time between time zones, this library offers a simple and efficient solution for your time management needs.
 
 ## Features
 
@@ -36,9 +17,34 @@ implementation 'com.example:mytimerx:1.0.0'
   Convert time between different time zones seamlessly.
 - **Support for Multiple Time Formats**: Supports 12-hour and 24-hour time formats, along with customizable date and time formats.
 
+## Step-by-Step Usage:
 
+### 1. Dependency Addition
 
-## Getting Started
+To use the TimerX, follow these steps to update your Gradle files.
+
+#### Gradle Integration
+
+##### Step A: Add Maven Repository
+In your **project-level** `build.gradle` or `settings.gradle` file, add the following repository:
+
+```
+repositories {
+    google()
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+```
+
+### Step B: Add Dependencies
+
+Include the TimerX library in your **app-level** `build.gradle` file. Replace `x.x.x` with the latest version:
+
+```
+implementation 'com.github.hypersoftdev:TimerX:x.x.x'
+```
+
+## Java/Kotlin Implementation
 
 ### **1. Simple Countdown Timer**
 ```
@@ -122,14 +128,31 @@ Log.d("TIME_FORMAT", "Converted Time: $formattedMillis")
 - **isValidTimeFormat(time: String)**: Validates whether the provided time string matches the `HH:mm` format.
 
 ```
+## Demo
 
-## Contributing
-
-
-We welcome contributions to the TimerX project! Please review the [CONTRIBUTING](CONTRIBUTING.md) guide for instructions on how to get involved.
+Here is a gif video that showcases the usage of this library in an Android project. The video covers how to implement timers, format time, and manage time zones effectively.
 
 
+# Acknowledgements
 
-## License
+This work would not have been possible without the invaluable contributions of [Wajahat Ahmed](https://github.com/AghaTech883). His expertise, dedication, and unwavering support have been instrumental in bringing this project to fruition.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+![Profile](https://github.com/hypersoftdev/CyclicSeekbar/blob/master/screens/profile_image.jpg?raw=true)
+
+We are deeply grateful for [Wajahat Ahmed](https://github.com/AghaTech883) involvement and his belief in the importance of this work. His contributions have made a significant impact, and we are honored to have had the opportunity to collaborate with him.
+
+# LICENSE
+
+Copyright 2023 Hypersoft Inc
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

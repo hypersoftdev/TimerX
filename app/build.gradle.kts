@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.sample.example"
+    namespace = "com.hypersoft.timer"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.sample.example"
+        applicationId = "com.hypersoft.timer"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -45,12 +45,9 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
 
     // timer X module
-    implementation(project(":app:mytimerX"))
+    implementation(project(":timerx"))
 
     // Navigational Components
     implementation(libs.androidx.navigation.fragment.ktx)

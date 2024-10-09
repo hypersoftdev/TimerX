@@ -8,11 +8,11 @@
     <fragment
         android:id="@+id/simpleCountDownFragment"
         tools:layout="@layout/fragment_simple_count_down"
-        android:name="com.sample.example.fragments.SimpleCountDownFragment"
+        android:name="com.hypersoft.timer.fragments.SimpleCountDownFragment"
         android:label="SimpleCountDownFragment" />
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.sample.example.MainFragment"
+        android:name="com.hypersoft.timer.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -28,11 +28,11 @@
     <fragment
         android:id="@+id/counterWithIntervalsFragment"
         tools:layout="@layout/fragment_counter_with_intervals"
-        android:name="com.sample.example.fragments.CounterWithIntervalsFragment"
+        android:name="com.hypersoft.timer.fragments.CounterWithIntervalsFragment"
         android:label="CounterWithIntervalsFragment" />
     <fragment
         android:id="@+id/formatTimeDataFragment"
-        android:name="com.sample.example.fragments.FormatTimeDataFragment"
+        android:name="com.hypersoft.timer.fragments.FormatTimeDataFragment"
         android:label="fragment_format_time_data"
         tools:layout="@layout/fragment_format_time_data" />
 </navigation>

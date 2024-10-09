@@ -132,12 +132,14 @@ Log.d("TIME_FORMAT", "Converted Time: $formattedMillis")
 
 Here is a gif video that showcases the usage of this library in an Android project. The video covers how to implement timers, format time, and manage time zones effectively.
 
+https://github.com/user-attachments/assets/c21fcc3f-40cc-4a1e-a767-960e6065d14c
+
 
 # Acknowledgements
 
 This work would not have been possible without the invaluable contributions of [Wajahat Ahmed](https://github.com/AghaTech883). His expertise, dedication, and unwavering support have been instrumental in bringing this project to fruition.
 
-![Profile](https://github.com/hypersoftdev/CyclicSeekbar/blob/master/screens/profile_image.jpg?raw=true)
+![Profile](https://github.com/hypersoftdev/TimerX/blob/master/screen/profile_image.jpg?raw=true)
 
 We are deeply grateful for [Wajahat Ahmed](https://github.com/AghaTech883) involvement and his belief in the importance of this work. His contributions have made a significant impact, and we are honored to have had the opportunity to collaborate with him.
 

@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/hypersoftdev/TimerX.svg)](https://jitpack.io/#hypersoftdev/TimerX)
 # TimerX
 
 The **TimerX** library provides a collection of powerful and easy-to-use classes for managing time and performing various time-related operations such as countdown timers, formatting timestamps, and working with time zones. Whether you're building timers, formatting dates, or converting time between time zones, this library offers a simple and efficient solution for your time management needs.
@@ -38,7 +39,7 @@ repositories {
 
 ### Step B: Add Dependencies
 
-Include the TimerX library in your **app-level** `build.gradle` file. Replace `x.x.x` with the latest version:
+Include the TimerX library in your **app-level** `build.gradle` file. Replace `x.x.x` with the latest version: [![](https://jitpack.io/v/hypersoftdev/TimerX.svg)](https://jitpack.io/#hypersoftdev/TimerX)
 
 ```
 implementation 'com.github.hypersoftdev:TimerX:x.x.x'
